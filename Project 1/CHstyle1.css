@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+/*I'm not playing with boxes side-by-side yet, but I thought I would leave this code here for future development.*/
+
+body {
+    font-family: Georgia;
+    background-color: #1a2c61;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+}
+
+h2 {
+    margin: 10px;
+    color: #1a2c61;
+    font-variant: small-caps;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 8px;
+    text-align: left;
+    font-variant: small-caps;
+}
+
+.chapter {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.content {
+    background-color: #cdd4eb;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.content_description {
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 6px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
