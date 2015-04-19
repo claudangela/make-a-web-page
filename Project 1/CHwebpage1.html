@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Claudia Hogan's notes for "Intro to Programming"</title>
+	<link rel="stylesheet" type="text/css" href="CHstyle1.css">
+<!--I am trying to add my picture as an icon on my browser tab. I use Chrome. I have converted my picture into icon file, and used the code below, also tried other variants but can't make it work. Any suggestions? Thank you!-->
+	<link rel="icon" type="image/png" href="/Images/favicon.ico">
+<!--Inspired by Andy's notes, I'm adding this line of code to make my site mobile compatible. Do I need to add anything else? Thank you!-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1> Summary of Concepts </h1>
+	<div class="chapter">
+		<h2>The Basics of Programming: Web, HTML and CSS</h2>
+		<div class="content">
+			<h3>Programming</h3>
+			<div class="content_description">
+				<p>
+				Programming is the process of developing and implementing various sets of instructions to enable a computer to do a certain task. The most important thing about its definition is to understand the types of programming thinking, as follows:
+				</p> <!--I closed the paragraph because ul cannot be inside p since they are both block elements-->
+				<ul>
+					<li> <span class="bold">Procedural thinking:</span> clear and unambiguous instructions for a computer to follow;</li>
+					<li> <span class="bold">Abstract thinking:</span> finding a <span class="italic">generality</span> amongst seemingy different things;</li>
+					<li> <span class="bold">Systems thinking:</span> break a big problem into smaller pieces;</li>
+					<li> <span class="bold">Technological empathy:</span> undestand how computers works; and</li>  
+					<li> <span class="bold">Debugging:</span> relentless identifying the cause of a computer program not to work. (Debugging process: collect evidence > generate theories > test theories > fix problem)</li>
+				</ul>  	
+			</div>
+		</div>
+		<div class="content">
+			<h3>Web</h3>
+			<div class="content_description">
+				<p>
+				The <span class="italic">World Wide Web</span>, or just the <span class="italic">WEB</span> is a collection of (HTML) documents linked among each other. It comprises of 4 major pieces:
+				</p>
+				<ul>
+					<li> <span class="bold">The Browser:</span> a program that runs on your computer to display files found on the web;</li>
+					<li> <span class="bold">The Internet:</span> the world&rsquo;s largest computer network;</li>
+					<li> <span class="bold">The HTTP:</span> the main protocol of the web; and</li>
+					<li> <span class="bold">The Servers:</span> computers that host the files that make up the web.</li>   
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<h3>HTML</h3>
+			<div class="content_description">
+				<p>
+				Or <span class="italic">Hypertext Markup Language</span> controls the <span class="italic">structure</span> of a page. It is the standard markup language used to create web pages. Its basic vocabulary includes:
+				</p>
+				<ul>
+					<li> <span class="bold"> Tag: </span> is always contained within angled brackets. Most tags have an opening tag and a closing tag. Some tags (called "void" tags) do not require a closing tag (e.g. br).</li>
+					<li> <span class="bold"> Element: </span> refers to everything within a set of opening and closing tags. </li>
+					<li> <span class="bold"> Attribute: </span> is a property of an HTML element, such as the use of a link reference. </li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">	
+			<h3>CSS</h3>
+			<div class="content_description">
+				<p>
+				Or <span class="italic"> Cascading Style Sheets </span> is the code written to control the <span class="italic">style</span> of a page and HMTL elements. It is used for describing the look and formatting of a document written in a markup language. There are three ways of including CSS styling in a web page:
+				</p>
+				<ul>
+					<li> <span class="bold"> Head: </span> write CSS in the head tag of your HTML; </li>
+					<li> <span class="bold"> Add link:</span> link your HTML to a separate CSS file; and </li> <!--"Adding Link" is the method I chose to work on this project-->
+					<li> <span class="bold"> Inline:</span> write your style inline with your HTML. </li>
+				</ul>
+				<p>
+				&#9733; The method <span class="italic"> Adding Link</span> is normally the most advisable as it keeps the HTML neatly organized, facilitating reading and editing. You can literaly change the entire look of the page without touching the HTML text, when properly done. It also helps building leaner coding structures, which allows a page to be loaded faster.
+				</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="chapter">
+		<h2>A Good Structure Is Your Best Ally to Avoid Repetition</h2>
+		<div class="content">
+			<h3>Structured And Faster Pages </h3>
+			<div class="content_description">
+				<p>
+				 Structured frameworks have been used by leaders in many industries to organize someone&rsquo;s thinking, break a problem into manageable chunks and improve communication. It's not a surprise that HTML also leverages a standard framework to organize it's <span class="italic">grammar</span>. HTML uses the common <span class="italic">tree-like diagram</span>. Another way to think about this embeded structure is to think about <span class="italic">boxes</span>. A box inside a box, inside a box, and so on.
+				</p>
+				<p>
+				 CSS also has its own logical structure: <span class="italic">cascading</span>. It can also be described as an inheritance mechanism in which properties are applied not only to a specified element, but also to its descendants. It relies on the tree framework, same hierarchy of HTML elements. This structure allows CSS code to be lean, and therefore pages to load a lot faster.
+				</p>
+				<p>
+				 &#9733; A good structure is what allows documents to be properly organized, minimizing erros, making it easier for others to read your code, and most of all, it minimizes lines of code, avoiding repetition and helping pages be loaded faster. 
+				</p>
+			</div>
+		</div>
+		<div class="content">
+			<h3>Tree-Like Diagram </h3>
+			<div class="content_description">
+				<p>
+				 This is the way to represent a hierarchical structure in a graphical form. It is also sometimes referred to as <span class="italic">DOM</span> or Document Object Model. More information can be found on <a href="http://en.wikipedia.org/wiki/Tree_structure" target="_blank">Wikipedia</a>. <!--I added "target="blank"" here because I like when the link takes the user to a new tab-->
+				</p>
+			</div>
+		</div>
+		<div class="content">
+			<h3>Cascading </h3>
+			<div class="content_description">
+				<p>
+				 <span class="italic">Cascading</span> means that rules are applied not only to the elements they directly match, but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, the more specific rule takes effect. More information can be found on <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance" target="_blank">Wikipedia</a>.
+
+				</p>
+			</div>
+		</div>
+		<div class="content">
+			<h3>Indentation </h3>
+			<div class="content_description">
+				<p>
+				 It is best practice to use indentation on HTML code writing to facilitate reading and navigation within the code. It does not affect how the page looks, but it does make the code source a lot nicer looking. 
+				</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="chapter">
+		<h2>A Bit More About <span class="italic">Boxing</span></h2>
+		<div class="content">
+			<h3>Sizing</h3>
+			<div class="content_description">
+				<p>
+				HTML elements are boxes and each box has 4 components: content, padding, border, margin. Because there are so many components to each box, it can often be hard to get the size of a box just right. There are two techniques to help sizing issues:
+				</p>
+				<ol>
+					<li>Set sizes in percentage rather than pixels.</li>
+					<li>Set the <span class="italic">box-sizing</span> attribute to <span class="italic">border-box</span> for every element. </li>
+				</ol>
+				<p>
+				Different browsers work differently. Sometimes this causes different browsers to display the same code differently.
+				</p>
+			</div>
+		</div>
+		<div class="content">
+			<h3>Positioning</h3>
+			<div class="content_description">
+				<p>
+				DIVs are block elements (as opposed to inline), so by default they take up the entire width of a page. Adding the rule <span class="italic">"display:flex"</span> to the appropriate CSS will override this behaviour and let DIVs appear next to each other. 
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<!--My code passed the Markup Validation Service, but I got a couple of warnings (below). Can I do something to avoid them? Thank you!
+
+1. Info No Character encoding declared at document level: No character encoding information was found within the document, either in an HTML meta element or an XML declaration. It is often recommended to declare the character encoding in the document itself, especially if there is a chance that the document will be read from or saved to disk, CD, etc.
+
+2. Info Using Direct Input mode: UTF-8 character encoding assumed: Unlike the “by URI” and “by File Upload” modes, the “Direct Input” mode of the validator provides validated content in the form of characters pasted or typed in the validator's form field. This will automatically make the data UTF-8, and therefore the validator does not need to determine the character encoding of your document, and will ignore any charset information specified. If you notice a discrepancy in detected character encoding between the “Direct Input” mode and other validator modes, this is likely to be the reason. It is neither a bug in the validator, nor in your document.
